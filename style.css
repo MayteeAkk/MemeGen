@@ -1,0 +1,73 @@
+div{
+    text-align: center;
+    font-size: 25px;
+    font-family: Montserrat, sans-serif;
+}
+
+legend{
+    font-size: 50px;
+    text-align:center;
+}
+
+.submitMeme {
+    background-color:tan;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#addedPictures{
+    width: 850px;
+    height: 478px;
+    position: relative;
+    text-align: center;
+    color:black;
+    margin: 50px;
+    display: inline-flex;
+}
+
+#addedPictures img{
+    height:100%;
+    width:100%;
+    border-radius: 30px;
+}
+
+#addedPictures:hover .delete{
+    display: block;
+}
+
+#addedPictures:hover{
+    opacity:.8;
+}
+
+.middle-top{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+}
+
+.middle-bottom{
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+}
+
+.delete{
+    color: black;
+    display:none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

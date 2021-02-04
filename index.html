@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form class="memeForm">
+        <fieldset>
+        <legend>Meme Generator</legend>
+        
+        <!-- Image URL Form-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="picUrl">Image URL</label>
+            <div class="col-md-4">
+            <div class="input-group">
+            <input id="picUrl" name="picUrl" class="form-control" placeholder="Type in URL of the Meme." type="url">
+            </div>
+            
+    </div>
+        </div>
+        <!-- Image URL Form-->
+        <div class="form-group">
+        <label class="col-md-4 control-label" for="topText">Text on Top</label>
+        <div class="col-md-4">
+            <div class="input-group">
+            <input id="topText" name="topText" class="form-control" placeholder="Type in your Upper Text" type="text">
+            </div>
+            
+        </div>
+        </div>
+        <!-- Image URL Form-->
+        <div class="form-group">
+        <label class="col-md-4 control-label" for="bottomText">Text on Bottom</label>
+        <div class="col-md-4">
+            <div class="input-group">
+            <input id="bottomText" name="bottomText" class="form-control" placeholder="Type in your Bottom Text" type="text">
+            </div>
+            
+        </div>
+        <button class="submitMeme">Submit</button>
+        </div>
+        
+        
+        </fieldset> 
+        <!-- After the Bottom Line, add Pictures After This -->
+        </form>
+        
+    <script src="script.js"></script>
+</body>
+</html>
